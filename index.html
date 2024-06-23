@@ -24,24 +24,53 @@ div {
 </style>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="geografica" content="width=device-width, initial-scale=1">
 <style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
 </style>
 </head>
 <body>
-<h1 style=text-align:center>curiosidades do japão falado por yudiobana</h1>
-  <img src="638203568502467056_geografia-japao.jpg" class="center">
-<div><h2 style=text-align:center style="border: 2px solid black" style="font-size:25px;"><em>o japão é localizado no oceano pacífico, ao leste da ásia. é formado por cerca de 6.800 ilhas, sendo que as quatro principais são honshu, hokkaido, kyushu e shikoku. </em></h2></div>
-<div><h2 style=text-align:center style="border: 2px solid black" style="font-size:25px;"><em>a maior delas é a honshu, onde se encontra a capital do país, tokyo mais devido a sua localização ocorre diversos fenômenos naturais, como</em></h2>
-<div><h2 style=text-align:center style="border: 2px solid black" style="font-size:25px;"><em>terremotos, tsunamis e tufões o país é considerado um dos mais sísmicos do mundo.</em></h2>
+
+<h2>Responsive Image with Transparent Text</h2>
+
+<div class="container">
+  <img src="638203568502467056_geografia-japao.jpg" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <h1>Heading</h1>
+    <p>o japão é localizado no oceano pacífico, ao leste da ásia. é formado por cerca de 6.800 ilhas, sendo que as quatro principais são honshu, hokkaido, kyushu e shikoku.</p>
+     <p>a maior delas é a honshu, onde se encontra a capital do país, tokyo mais devido a sua localização ocorre diversos fenômenos naturais, como</p>
+    <p>terremotos, tsunamis e tufões o país é considerado um dos mais sísmicos do mundo.</p>
+  </div>
 </div>
+
 </body>
 </html>
+
 
 
 <html>
